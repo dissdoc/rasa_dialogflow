@@ -1,0 +1,80 @@
+slots:
+  person:
+    type: text
+  kind_guitar:
+    type: categorical
+    values:
+      - fender
+      - gibson
+      - ibanez
+  no_matches:
+    type: unfeaturized
+  price:
+    type: text
+
+entities:
+  - person
+  - kind_guitar
+  - no_matches
+  - price
+
+intents:
+  - greeting
+  - goodbye
+  - changing
+  - kind_of_guitar
+  - meeting
+  - ordering
+
+actions:
+  - utter_greeting
+  - utter_meeting
+  - utter_changing
+  - utter_kind_of_guitar
+  - utter_goodbye
+  - utter_answer_about_guitar
+  - utter_no_fenders
+  - utter_exist_gibson
+  - utter_answer_about_ibanez
+  - utter_more
+  - utter_order
+  - action_person_name
+  - action_price_fender
+  - action_price_gibson
+
+templates:
+  utter_greeting:
+    - Hello! I'm a bot. What should I call you?
+    - Hello, my friend! What do I call you?
+
+  utter_meeting:
+    - Nice to meet you, {person}. Could I help you?
+
+  utter_changing:
+    - Hmm.. Interesting
+
+  utter_kind_of_guitar:
+    - What kind of guitar do you want?
+
+  utter_answer_about_guitar:
+    - Wait a minute, plz. I'm checking the catalog and tring to find '{kind_guitar}'
+
+  utter_answer_about_ibanez:
+    - We have no Ibanez
+
+  utter_no_fenders:
+    - We have no {kind_guitar}, but we can offer you {no_matches}
+
+  utter_order:
+    - Do you want to place your order?
+
+  utter_more:
+    - Anything else?
+
+  utter_exist_gibson:
+    - Your new guitar would be cost roughly {price}
+
+  utter_goodbye:
+    - Bye-bye!
+    - OK :) Have a nice day!
+    - Goodbye

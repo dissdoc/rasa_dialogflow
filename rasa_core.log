@@ -1,0 +1,664 @@
+Rasa process starting
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Available web server routes: 
+static                                             HEAD, GET, OPTIONS             /static/[filename]
+custom_webhook_CmdlineInput.health                 HEAD, GET, OPTIONS             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'hi' with intent '{'name': 'greeting', 'confidence': 0.7490915638450266}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	PERSON: None
+Current tracker state [None, {}, {'intent_greeting': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '7'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'utter_greeting' with prob 1.00.
+Action 'utter_greeting' ended with events '[]'
+Bot utterance 'BotUttered(text: Hello! I'm a bot. What should I call you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{}, {'intent_greeting': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greeting': 1.0, 'intent_greeting': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'I am Kirill' with intent '{'name': 'meeting', 'confidence': 0.5098383338113103}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+	PERSON: None
+Current tracker state [{'intent_greeting': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greeting': 1.0, 'intent_greeting': 1.0}, {'prev_action_listen': 1.0, 'intent_meeting': 1.0}]
+There is a memorised next action '8'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'utter_meeting' with prob 1.00.
+Action 'utter_meeting' ended with events '[]'
+Bot utterance 'BotUttered(text: Nice to meet you, None. Could I help you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_greeting': 1.0, 'intent_greeting': 1.0}, {'prev_action_listen': 1.0, 'intent_meeting': 1.0}, {'prev_utter_meeting': 1.0, 'intent_meeting': 1.0}]
+There is a memorised next action '10'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_person_name' with prob 1.00.
+Calling action endpoint to run action 'action_person_name'.
+Action 'action_person_name' ended with events '[]'
+Bot utterance 'BotUttered(text: Here some values), data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_action_listen': 1.0, 'intent_meeting': 1.0}, {'prev_utter_meeting': 1.0, 'intent_meeting': 1.0}, {'prev_action_person_name': 1.0, 'intent_meeting': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Available web server routes: 
+static                                             GET, HEAD, OPTIONS             /static/[filename]
+custom_webhook_CmdlineInput.health                 GET, HEAD, OPTIONS             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'hi' with intent '{'name': 'greeting', 'confidence': 0.9121960827025556}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	PERSON: None
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_greeting': 1.0}]
+There is a memorised next action '7'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'utter_greeting' with prob 1.00.
+Action 'utter_greeting' ended with events '[]'
+Bot utterance 'BotUttered(text: Hello, my friend! What do I call you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_greeting': 1.0}, {'prev_utter_greeting': 1.0, 'intent_greeting': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'I am Mark' with intent '{'name': 'meeting', 'confidence': 0.6798739955434968}' and entities '[{'start': 5, 'end': 9, 'value': 'mark', 'entity': 'PERSON', 'confidence': 0.9030284336707091, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 7 events
+Current slot values: 
+	PERSON: mark
+Current tracker state [{'prev_action_listen': 1.0, 'intent_greeting': 1.0}, {'prev_utter_greeting': 1.0, 'intent_greeting': 1.0}, {'slot_PERSON_0': 1.0, 'entity_PERSON': 1.0, 'prev_action_listen': 1.0, 'intent_meeting': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_greeting' with prob 0.28.
+Action 'utter_greeting' ended with events '[]'
+Bot utterance 'BotUttered(text: Hello! I'm a bot. What should I call you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_greeting': 1.0, 'intent_greeting': 1.0}, {'slot_PERSON_0': 1.0, 'entity_PERSON': 1.0, 'prev_action_listen': 1.0, 'intent_meeting': 1.0}, {'slot_PERSON_0': 1.0, 'entity_PERSON': 1.0, 'prev_utter_greeting': 1.0, 'intent_meeting': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.66.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'I am Kirill' with intent '{'name': 'meeting', 'confidence': 0.5776326823701498}' and entities '[]'
+Logged UserUtterance - tracker now has 11 events
+Current slot values: 
+	PERSON: mark
+Current tracker state [{'slot_PERSON_0': 1.0, 'entity_PERSON': 1.0, 'prev_action_listen': 1.0, 'intent_meeting': 1.0}, {'slot_PERSON_0': 1.0, 'entity_PERSON': 1.0, 'prev_utter_greeting': 1.0, 'intent_meeting': 1.0}, {'slot_PERSON_0': 1.0, 'prev_action_listen': 1.0, 'intent_meeting': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_person_name' with prob 0.27.
+Calling action endpoint to run action 'action_person_name'.
+Action 'action_person_name' ended with events '['SlotSet(key: PERSON, value: BadGuy)']'
+Bot utterance 'BotUttered(text: Here some values), data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_PERSON_0': 1.0, 'entity_PERSON': 1.0, 'prev_utter_greeting': 1.0, 'intent_meeting': 1.0}, {'slot_PERSON_0': 1.0, 'prev_action_listen': 1.0, 'intent_meeting': 1.0}, {'slot_PERSON_0': 1.0, 'prev_action_person_name': 1.0, 'intent_meeting': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_meeting' with prob 0.43.
+Action 'utter_meeting' ended with events '[]'
+Bot utterance 'BotUttered(text: Nice to meet you, BadGuy. Could I help you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_PERSON_0': 1.0, 'prev_action_listen': 1.0, 'intent_meeting': 1.0}, {'slot_PERSON_0': 1.0, 'prev_action_person_name': 1.0, 'intent_meeting': 1.0}, {'slot_PERSON_0': 1.0, 'intent_meeting': 1.0, 'prev_utter_meeting': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.34.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Available web server routes: 
+static                                             GET, HEAD, OPTIONS             /static/[filename]
+custom_webhook_CmdlineInput.health                 GET, HEAD, OPTIONS             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                OPTIONS, POST                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'hi' with intent '{'name': 'greeting', 'confidence': 0.925708544231086}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	PERSON: None
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_greeting': 1.0}]
+There is a memorised next action '7'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'utter_greeting' with prob 1.00.
+Action 'utter_greeting' ended with events '[]'
+Bot utterance 'BotUttered(text: Hello, my friend! What do I call you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_greeting': 1.0}, {'prev_utter_greeting': 1.0, 'intent_greeting': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'My name is Kirill' with intent '{'name': 'meeting', 'confidence': 0.6617351351891493}' and entities '[{'start': 11, 'end': 17, 'value': 'kirill', 'entity': 'PERSON', 'confidence': 0.9030352733336121, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 7 events
+Current slot values: 
+	PERSON: kirill
+Current tracker state [{'prev_action_listen': 1.0, 'intent_greeting': 1.0}, {'prev_utter_greeting': 1.0, 'intent_greeting': 1.0}, {'slot_PERSON_0': 1.0, 'prev_action_listen': 1.0, 'entity_PERSON': 1.0, 'intent_meeting': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_goodbye' with prob 0.31.
+Action 'utter_goodbye' ended with events '[]'
+Bot utterance 'BotUttered(text: Goodbye, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_greeting': 1.0, 'intent_greeting': 1.0}, {'slot_PERSON_0': 1.0, 'prev_action_listen': 1.0, 'entity_PERSON': 1.0, 'intent_meeting': 1.0}, {'slot_PERSON_0': 1.0, 'prev_utter_goodbye': 1.0, 'entity_PERSON': 1.0, 'intent_meeting': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.60.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Available web server routes: 
+static                                             HEAD, OPTIONS, GET             /static/[filename]
+custom_webhook_CmdlineInput.health                 HEAD, OPTIONS, GET             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                OPTIONS, POST                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'hello' with intent '{'name': 'greeting', 'confidence': 0.8368475055461888}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	PERSON: None
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_greeting': 1.0}]
+There is a memorised next action '7'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'utter_greeting' with prob 1.00.
+Action 'utter_greeting' ended with events '[]'
+Bot utterance 'BotUttered(text: Hello! I'm a bot. What should I call you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_greeting': 1.0}, {'prev_utter_greeting': 1.0, 'intent_greeting': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'I am Kirill' with intent '{'name': 'meeting', 'confidence': 0.63907050923356}' and entities '[{'start': 5, 'end': 11, 'value': 'kirill', 'entity': 'PERSON', 'confidence': 0.9030284336707091, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 7 events
+Current slot values: 
+	PERSON: kirill
+Current tracker state [{'prev_action_listen': 1.0, 'intent_greeting': 1.0}, {'prev_utter_greeting': 1.0, 'intent_greeting': 1.0}, {'prev_action_listen': 1.0, 'entity_PERSON': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_greeting' with prob 0.27.
+Action 'utter_greeting' ended with events '[]'
+Bot utterance 'BotUttered(text: Hello, my friend! What do I call you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_greeting': 1.0, 'intent_greeting': 1.0}, {'prev_action_listen': 1.0, 'entity_PERSON': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0}, {'prev_utter_greeting': 1.0, 'entity_PERSON': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.67.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'I am Kirill' with intent '{'name': 'meeting', 'confidence': 0.63907050923356}' and entities '[{'start': 5, 'end': 11, 'value': 'kirill', 'entity': 'PERSON', 'confidence': 0.9030284336707091, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 12 events
+Current slot values: 
+	PERSON: kirill
+Current tracker state [{'prev_action_listen': 1.0, 'entity_PERSON': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0}, {'prev_utter_greeting': 1.0, 'entity_PERSON': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0}, {'prev_action_listen': 1.0, 'entity_PERSON': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_meeting' with prob 0.28.
+Action 'utter_meeting' ended with events '[]'
+Bot utterance 'BotUttered(text: Nice to meet you, kirill. Could I help you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_greeting': 1.0, 'entity_PERSON': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0}, {'prev_action_listen': 1.0, 'entity_PERSON': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0}, {'entity_PERSON': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0, 'prev_utter_meeting': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.63.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'nothing' with intent '{'name': 'goodbye', 'confidence': 0.7363548579157299}' and entities '[]'
+Logged UserUtterance - tracker now has 16 events
+Current slot values: 
+	PERSON: kirill
+Current tracker state [{'prev_action_listen': 1.0, 'entity_PERSON': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0}, {'entity_PERSON': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0, 'prev_utter_meeting': 1.0}, {'prev_action_listen': 1.0, 'intent_goodbye': 1.0, 'slot_PERSON_0': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_goodbye' with prob 0.53.
+Action 'utter_goodbye' ended with events '[]'
+Bot utterance 'BotUttered(text: Bye-bye!, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'entity_PERSON': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0, 'prev_utter_meeting': 1.0}, {'prev_action_listen': 1.0, 'intent_goodbye': 1.0, 'slot_PERSON_0': 1.0}, {'intent_goodbye': 1.0, 'slot_PERSON_0': 1.0, 'prev_utter_goodbye': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.84.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Available web server routes: 
+static                                             HEAD, OPTIONS, GET             /static/[filename]
+custom_webhook_CmdlineInput.health                 HEAD, OPTIONS, GET             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                OPTIONS, POST                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'hi' with intent '{'name': 'greeting', 'confidence': 0.8246029106722004}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	PERSON: None
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_greeting': 1.0}]
+There is a memorised next action '7'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'utter_greeting' with prob 1.00.
+Action 'utter_greeting' ended with events '[]'
+Bot utterance 'BotUttered(text: Hello, my friend! What do I call you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_greeting': 1.0}, {'prev_utter_greeting': 1.0, 'intent_greeting': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'I am Kirill' with intent '{'name': 'meeting', 'confidence': 0.63907050923356}' and entities '[{'start': 5, 'end': 11, 'value': 'kirill', 'entity': 'PERSON', 'confidence': 0.9030284336707091, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 7 events
+Current slot values: 
+	PERSON: kirill
+Current tracker state [{'prev_action_listen': 1.0, 'intent_greeting': 1.0}, {'prev_utter_greeting': 1.0, 'intent_greeting': 1.0}, {'slot_PERSON_0': 1.0, 'entity_PERSON': 1.0, 'prev_action_listen': 1.0, 'intent_meeting': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_greeting' with prob 0.27.
+Action 'utter_greeting' ended with events '[]'
+Bot utterance 'BotUttered(text: Hello, my friend! What do I call you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_greeting': 1.0, 'intent_greeting': 1.0}, {'slot_PERSON_0': 1.0, 'entity_PERSON': 1.0, 'prev_action_listen': 1.0, 'intent_meeting': 1.0}, {'prev_utter_greeting': 1.0, 'slot_PERSON_0': 1.0, 'entity_PERSON': 1.0, 'intent_meeting': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.67.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'I am Kirill' with intent '{'name': 'meeting', 'confidence': 0.63907050923356}' and entities '[{'start': 5, 'end': 11, 'value': 'kirill', 'entity': 'PERSON', 'confidence': 0.9030284336707091, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 12 events
+Current slot values: 
+	PERSON: kirill
+Current tracker state [{'slot_PERSON_0': 1.0, 'entity_PERSON': 1.0, 'prev_action_listen': 1.0, 'intent_meeting': 1.0}, {'prev_utter_greeting': 1.0, 'slot_PERSON_0': 1.0, 'entity_PERSON': 1.0, 'intent_meeting': 1.0}, {'slot_PERSON_0': 1.0, 'entity_PERSON': 1.0, 'prev_action_listen': 1.0, 'intent_meeting': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_meeting' with prob 0.28.
+Action 'utter_meeting' ended with events '[]'
+Bot utterance 'BotUttered(text: Nice to meet you, kirill. Could I help you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_greeting': 1.0, 'slot_PERSON_0': 1.0, 'entity_PERSON': 1.0, 'intent_meeting': 1.0}, {'slot_PERSON_0': 1.0, 'entity_PERSON': 1.0, 'prev_action_listen': 1.0, 'intent_meeting': 1.0}, {'slot_PERSON_0': 1.0, 'entity_PERSON': 1.0, 'prev_utter_meeting': 1.0, 'intent_meeting': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.63.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Available web server routes: 
+static                                             HEAD, OPTIONS, GET             /static/[filename]
+custom_webhook_CmdlineInput.health                 HEAD, OPTIONS, GET             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'hi' with intent '{'name': 'greeting', 'confidence': 0.765564639196151}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	PERSON: None
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_greeting': 1.0}]
+There is a memorised next action '7'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'utter_greeting' with prob 1.00.
+Action 'utter_greeting' ended with events '[]'
+Bot utterance 'BotUttered(text: Hello, my friend! What do I call you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_greeting': 1.0}, {'prev_utter_greeting': 1.0, 'intent_greeting': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'I am Kirill' with intent '{'name': 'meeting', 'confidence': 0.6834261938392449}' and entities '[{'start': 5, 'end': 11, 'value': 'kirill', 'entity': 'PERSON', 'confidence': 0.9027654690790663, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 7 events
+Current slot values: 
+	PERSON: kirill
+Current tracker state [{'prev_action_listen': 1.0, 'intent_greeting': 1.0}, {'prev_utter_greeting': 1.0, 'intent_greeting': 1.0}, {'entity_PERSON': 1.0, 'prev_action_listen': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.22.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'My name is Kirill' with intent '{'name': 'meeting', 'confidence': 0.6746983153128292}' and entities '[{'start': 11, 'end': 17, 'value': 'kirill', 'entity': 'PERSON', 'confidence': 0.9027737659210954, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 10 events
+Current slot values: 
+	PERSON: kirill
+Current tracker state [{'prev_utter_greeting': 1.0, 'intent_greeting': 1.0}, {'entity_PERSON': 1.0, 'prev_action_listen': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0}, {'entity_PERSON': 1.0, 'prev_action_listen': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_meeting' with prob 0.23.
+Action 'utter_meeting' ended with events '[]'
+Bot utterance 'BotUttered(text: Nice to meet you, kirill. Could I help you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'entity_PERSON': 1.0, 'prev_action_listen': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0}, {'entity_PERSON': 1.0, 'prev_action_listen': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0}, {'entity_PERSON': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0, 'prev_utter_meeting': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_meeting' with prob 0.26.
+Action 'utter_meeting' ended with events '[]'
+Bot utterance 'BotUttered(text: Nice to meet you, kirill. Could I help you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'entity_PERSON': 1.0, 'prev_action_listen': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0}, {'entity_PERSON': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0, 'prev_utter_meeting': 1.0}, {'entity_PERSON': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0, 'prev_utter_meeting': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.24.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'bye' with intent '{'name': 'goodbye', 'confidence': 0.681197710290322}' and entities '[]'
+Logged UserUtterance - tracker now has 16 events
+Current slot values: 
+	PERSON: kirill
+Current tracker state [{'entity_PERSON': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0, 'prev_utter_meeting': 1.0}, {'entity_PERSON': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0, 'prev_utter_meeting': 1.0}, {'intent_goodbye': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.30.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'hi' with intent '{'name': 'greeting', 'confidence': 0.765564639196151}' and entities '[]'
+Logged UserUtterance - tracker now has 18 events
+Current slot values: 
+	PERSON: kirill
+Current tracker state [{'entity_PERSON': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0, 'prev_utter_meeting': 1.0}, {'intent_goodbye': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}, {'intent_greeting': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.33.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'hi' with intent '{'name': 'greeting', 'confidence': 0.765564639196151}' and entities '[]'
+Logged UserUtterance - tracker now has 20 events
+Current slot values: 
+	PERSON: kirill
+Current tracker state [{'intent_goodbye': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}, {'intent_greeting': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}, {'intent_greeting': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.33.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'hi' with intent '{'name': 'greeting', 'confidence': 0.765564639196151}' and entities '[]'
+Logged UserUtterance - tracker now has 22 events
+Current slot values: 
+	PERSON: kirill
+Current tracker state [{'intent_greeting': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}, {'intent_greeting': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}, {'intent_greeting': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.33.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'hi' with intent '{'name': 'greeting', 'confidence': 0.765564639196151}' and entities '[]'
+Logged UserUtterance - tracker now has 24 events
+Current slot values: 
+	PERSON: kirill
+Current tracker state [{'intent_greeting': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}, {'intent_greeting': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}, {'intent_greeting': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.32.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'bye' with intent '{'name': 'goodbye', 'confidence': 0.681197710290322}' and entities '[]'
+Logged UserUtterance - tracker now has 26 events
+Current slot values: 
+	PERSON: kirill
+Current tracker state [{'intent_greeting': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}, {'intent_greeting': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}, {'intent_goodbye': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.31.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'bye' with intent '{'name': 'goodbye', 'confidence': 0.681197710290322}' and entities '[]'
+Logged UserUtterance - tracker now has 28 events
+Current slot values: 
+	PERSON: kirill
+Current tracker state [{'intent_greeting': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}, {'intent_goodbye': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}, {'intent_goodbye': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.36.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'I am Kirill' with intent '{'name': 'meeting', 'confidence': 0.6834261938392449}' and entities '[{'start': 5, 'end': 11, 'value': 'kirill', 'entity': 'PERSON', 'confidence': 0.9027654690790663, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 31 events
+Current slot values: 
+	PERSON: kirill
+Current tracker state [{'intent_goodbye': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}, {'intent_goodbye': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}, {'entity_PERSON': 1.0, 'prev_action_listen': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.30.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'I am Kirill' with intent '{'name': 'meeting', 'confidence': 0.6834261938392449}' and entities '[{'start': 5, 'end': 11, 'value': 'kirill', 'entity': 'PERSON', 'confidence': 0.9027654690790663, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 34 events
+Current slot values: 
+	PERSON: kirill
+Current tracker state [{'intent_goodbye': 1.0, 'prev_action_listen': 1.0, 'slot_PERSON_0': 1.0}, {'entity_PERSON': 1.0, 'prev_action_listen': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0}, {'entity_PERSON': 1.0, 'prev_action_listen': 1.0, 'intent_meeting': 1.0, 'slot_PERSON_0': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.27.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Encountered an exception while running action 'action_person_name'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Encountered an exception while running action 'action_person_name'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_person_name'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_person_name'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
