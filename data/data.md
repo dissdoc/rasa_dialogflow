@@ -35,9 +35,10 @@
 - see ya
 - goodbye
 - nothing
-- no
 - see you later
 - see you around
+- deny
+- exit
 
 ## intent:ordering
 - order
